@@ -78,12 +78,14 @@ class App extends React.Component {
         <SearchBar onSearchSubmit={this.onSearchSubmit} />
         { this.contentToRender(this.state.ApiResponseCode) }
         
-        {this.state.overlayGalleryOpen &&
-        <OverlayGallery
-          closeOverlayGallery={ this.closeOverlayGallery }
-          imageUrl={ this.state.overlayGalleryImageUrl }
-          imageDescription={ this.state.overlayGalleryImageDescription }
-        />}
+        {
+          this.state.overlayGalleryOpen &&
+          <OverlayGallery
+            closeOverlayGallery={ this.closeOverlayGallery }
+            imageUrl={ this.state.overlayGalleryImageUrl }
+            imageDescription={ this.state.overlayGalleryImageDescription }
+          />
+        }
         <FooterSeparator />
         <Footer />
       </div>
