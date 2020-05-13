@@ -1,0 +1,12 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+  white-space: nowrap;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 0 5px #aaa;
+  z-index: 5;
+}
