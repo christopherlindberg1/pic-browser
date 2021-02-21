@@ -1,14 +1,13 @@
 import "./App.css";
 import React from "react";
-
-import unsplash from "../api/unsplash";
-
 import SearchBar from "./SearchBar";
 import ImageList from "./ImageList";
 import OverlayGallery from "./OverlayGallery";
 import Footer from "./Footer";
 import FooterSeparator from "./FooterSeparator";
 import ApiError from "./ApiError";
+
+import unsplash from "../api/unsplash";
 
 
 class App extends React.Component {
