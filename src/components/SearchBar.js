@@ -19,7 +19,7 @@ class SearchBar extends React.Component {
           className="ui form"
         >
           <div className="field">
-            <label htmlFor="search-field" >Image Search</label>
+            <label htmlFor="search-field" >Image Search form</label>
             <input
               id="search-field"
               type="text"
